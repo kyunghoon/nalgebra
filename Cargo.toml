@@ -86,7 +86,7 @@ pest_derive    = { version = "2", optional = true }
 bytemuck       = { version = "1.5", optional = true }
 matrixcompare-core = { version = "0.1", optional = true }
 proptest           = { version = "1", optional = true, default-features = false, features = ["std"] }
-glam013        = { package = "glam", version = "0.13", optional = true }
+glam013        = { package = "glam", version = "= 0.13.0", optional = true }
 glam014        = { package = "glam", version = "0.14", optional = true }
 glam015        = { package = "glam", version = "0.15", optional = true }
 glam016        = { package = "glam", version = "0.16", optional = true }
